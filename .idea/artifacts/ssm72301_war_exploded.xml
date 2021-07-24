@@ -1,0 +1,51 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssm72301:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssm72301_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ssm72301/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssm72301" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/asm-7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/ant-1.10.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/ognl-3.2.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/cglib-3.2.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mybatis-3.5.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/log4j-api-2.11.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/slf4j-api-1.7.26.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/log4j-core-2.11.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/ant-launcher-1.10.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javassist-3.24.1-GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/slf4j-log4j12-1.7.26.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-tx-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-aop-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-web-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-core-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-jdbc-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-beans-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.21.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-webmvc-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-aspects-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-context-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-expression-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/com.springsource.org.aopalliance-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/com.springsource.org.apache.log4j-1.2.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-dbcp-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-pool-1.5.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-dbcp2-2.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mybatis-spring-2.0.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-pool-1.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-pool2-2.10.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

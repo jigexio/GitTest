@@ -1,0 +1,13 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chn.dao.MyUserDao">
+    <!--映射文件配置，实现对应接口的方法，sql数据链路层设计-->
+    <select id="selectByName" parameterType="com.chn.pojo.MyUser" resultType="com.chn.pojo.MyUser">
+        select * from myuser where 1 = 1
+       <if test="uname != null and uname != ''">
+           and uname like concat('%',#{uname},'%')
+       </if>
+    </select>
+
+</mapper>
